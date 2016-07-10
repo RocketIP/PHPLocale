@@ -4,7 +4,7 @@ namespace PHPLocale;
 class HttpAcceptLanguage
 {
     /**
-     * __construct
+     * Create a new HttpAcceptLanguage instance.
      *
      * @return array
      */
@@ -53,7 +53,7 @@ class HttpAcceptLanguage
     }
 
     /**
-     * parseLanguage
+     * Parse a language and return language like: 'fr' or 'fr-BE'.
      *
      * @param array $language
      *
@@ -69,7 +69,7 @@ class HttpAcceptLanguage
     }
 
     /**
-     * getRawLanguages
+     * Return the HttpAcceptLanguage informations.
      *
      * @return array
      */
@@ -82,7 +82,7 @@ class HttpAcceptLanguage
     /* }}} */
 
     /**
-     * getLanguages
+     * Return all available languages.
      *
      * @return array
      */
@@ -100,7 +100,7 @@ class HttpAcceptLanguage
     }
 
     /**
-     * getLanguage
+     * Return only the first available language.
      *
      * @return string
      */
