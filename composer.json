@@ -1,0 +1,14 @@
+{
+  "name": "RocketIP/PHPLocale",
+  "description": "PHPLocale: Get available locale based on HTTP \"Accept-Language\" header",
+  "type": "library",
+  "keywords": ["locale","class","secure"],
+  "homepage": "http://www.github.com/RocketIp/PHPLocale",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": { "PHPLocale\\": ["src/PHPLocale", "tests/"] }
+  }
+}
