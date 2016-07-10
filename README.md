@@ -120,6 +120,7 @@ PHPLocale follows the PSR-2 coding standard and the PSR-4 autoloading standard.
 
 Below is an example of a valid PHPLocale documentation block. Note that the @param attribute is followed by two spaces, the argument type, two more spaces, and finally the variable name:
 
+```php
 /**
  * Parse a language and return language like: 'fr' or 'fr-BE'.
  *
@@ -131,6 +132,7 @@ public function parseLanguage($language)
 {
     //
 }
+```
 
 ## StyleCI
 
