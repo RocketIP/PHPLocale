@@ -1,4 +1,5 @@
 <?php
+
 use PHPLocale\HttpAcceptLanguage;
 
 class HttpAcceptLanguageTest extends \PHPUnit_Framework_TestCase

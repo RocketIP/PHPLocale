@@ -6,7 +6,6 @@ class HttpAcceptLanguage
     /**
      * __construct
      *
-     * @access public
      * @return array
      */
     public function __construct()
@@ -57,8 +56,8 @@ class HttpAcceptLanguage
      * parseLanguage
      *
      * @param array $language
-     * @access public
-     * @return void
+     *
+     * @return string
      */
     public function parseLanguage($language)
     {
@@ -70,31 +69,40 @@ class HttpAcceptLanguage
     }
 
     /**
+     * getRawLanguages
+     *
+     * @return array
+     */
+    public function getRawLanguages()
+    {
+        if (isset($this->languages)) {
+            return $this->languages;
+        }
+    }
+    /* }}} */
+
+    /**
      * getLanguages
      *
-     * @access public
-     * @return void
+     * @return array
      */
     public function getLanguages()
     {
         if (isset($this->languages) && is_array($this->languages)) {
             $languages = [];
 
-            foreach($this->languages as $language) {
+            foreach ($this->languages as $language) {
                 $languages[] = $this->parseLanguage($language);
             }
 
             return $languages;
         }
-
-        return null;
     }
 
     /**
      * getLanguage
      *
-     * @access public
-     * @return void
+     * @return string
      */
     public function getLanguage()
     {
@@ -103,7 +111,5 @@ class HttpAcceptLanguage
 
             return $this->parseLanguage($lang);
         }
-
-        return null;
     }
 }
