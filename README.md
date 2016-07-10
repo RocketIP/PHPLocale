@@ -6,9 +6,15 @@
 
 PHPLocale: Get available locale based on HTTP "Accept-Language" header
 
-## Methods
+# Composer
 
-### getLanguage
+```
+composer require rocketip/phplocale
+```
+
+# Methods
+
+## getLanguage
 
 ```php
 <?php
@@ -27,7 +33,7 @@ The above example will output:
 fr-BE
 ```
 
-### getLanguages
+## getLanguages
 
 ```php
 <?php
@@ -53,7 +59,7 @@ Array
 )
 ```
 
-### getRawLanguages
+## getRawLanguages
 
 ```php
 <?php
