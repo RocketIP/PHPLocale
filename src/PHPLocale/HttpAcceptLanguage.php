@@ -1,4 +1,5 @@
 <?php
+
 namespace PHPLocale;
 
 class HttpAcceptLanguage
@@ -49,6 +50,7 @@ class HttpAcceptLanguage
         }
 
         $this->languages = $languages;
+
         return $this->languages;
     }
 
@@ -79,7 +81,6 @@ class HttpAcceptLanguage
             return $this->languages;
         }
     }
-    /* }}} */
 
     /**
      * Return all available languages.
