@@ -1,8 +1,7 @@
 <?php
 use PHPLocale\HttpAcceptLanguage;
-use PHPUnit\Framework\TestCase;
 
-class HttpAcceptLanguageTest extends TestCase
+class HttpAcceptLanguageTest extends \PHPUnit_Framework_TestCase
 {
     public function testLanguage()
     {
