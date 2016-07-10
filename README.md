@@ -1,6 +1,8 @@
 # PHPLocale
 
+[![StyleCI Status](https://styleci.io/repos/63001544/shield)](https://styleci.io/repos/63001544)
 [![Build Status](http://travis-ci.org/RocketIP/PHPLocale.png)](http://travis-ci.org/RocketIP/PHPLocale)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 PHPLocale: Get available locale based on HTTP "Accept-Language" header
 
@@ -105,3 +107,41 @@ Array
 
 )
 ```
+
+# Requirements
+
+PHP 5 (>= 5.6.0)
+
+# Coding Style
+
+PHPLocale follows the PSR-2 coding standard and the PSR-4 autoloading standard.
+
+## PHPDoc
+
+Below is an example of a valid PHPLocale documentation block. Note that the @param attribute is followed by two spaces, the argument type, two more spaces, and finally the variable name:
+
+/**
+ * Parse a language and return language like: 'fr' or 'fr-BE'.
+ *
+ * @param  array  $language
+ *
+ * @return string
+ */
+public function parseLanguage($language)
+{
+    //
+}
+
+## StyleCI
+
+If your code style isn't perfect, don't worry! StyleCI will automatically merge any style fixes into the PHPLocale repository after any pull requests are merged. This allows us to focus on the content of the contribution and not the code style.
+
+# Contributing
+
+Thank you for considering contributing to PHPLocale
+* To report an issue or a feature request use: [GitHub Issues](https://github.com/RocketIP/PHPLocale/issues).
+* To make a [Pull Request](https://github.com/RocketIP/PHPLocale/pulls): check if the same pull request exist, fork this project, create a new branch for each issue or feature.
+
+# License
+
+PHPLocale is open-sourced software licensed under the MIT license.
