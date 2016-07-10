@@ -3,7 +3,7 @@
   "description": "PHPLocale: Get available locale based on HTTP \"Accept-Language\" header",
   "type": "library",
   "keywords": ["locale","class","secure"],
-  "homepage": "http://www.github.com/rocketip/phplocale",
+  "homepage": "http://www.github.com/RocketIP/PHPLocale",
   "license": "MIT",
   "require": {
     "php": ">=5.4.0"
