@@ -1,9 +1,9 @@
 {
-  "name": "RocketIP/PHPLocale",
+  "name": "rocketip/phplocale",
   "description": "PHPLocale: Get available locale based on HTTP \"Accept-Language\" header",
   "type": "library",
   "keywords": ["locale","class","secure"],
-  "homepage": "http://www.github.com/RocketIp/PHPLocale",
+  "homepage": "http://www.github.com/rocketip/phplocale",
   "license": "MIT",
   "require": {
     "php": ">=5.6.0"
